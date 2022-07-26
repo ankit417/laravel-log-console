@@ -4,8 +4,7 @@ View laravel log in javascript console
 
 ## installation
 - npm i
-- import laravel log in index file. 
-- replace "const log = "./laravel.log";" in line 4 with your laravel log path
+- Update Log Path
 
 ## start
 - node index 
