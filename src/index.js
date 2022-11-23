@@ -1,10 +1,12 @@
 const fs = require("fs");
 require("log-timestamp");
 //LOG PATH
-const log = "./laravel.log"; //UPDATE YOUR LOG PATH
+const log = "../laravel.log"; //UPDATE YOUR LOG PATH
 var d = new Date();
 var y = d.getFullYear();
+
 console.log(`listening for laravel log`);
+
 fs.watchFile(log, () => {
   let file = fs.readFileSync(log, "utf8");
   let arr = file.split(/\r?\n/);
