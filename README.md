@@ -3,8 +3,7 @@ View laravel log in javascript console
 
 
 ## installation
-- npm i
-- Update Log Path
+- Update Log Path in src/index
 
 ## start
 - node index 
